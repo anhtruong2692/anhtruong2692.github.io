@@ -1,0 +1,123 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .down-column {
+        display: block;
+    }
+    .header {
+        height: 52px;
+        background-color: #0082c8;
+    }
+    .logo-vitc__mobile {
+        display: block;
+    }
+    .header__icon-mobile {
+        display: block;
+    }
+    .slider__filter h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .slider__filter-subject {
+        flex-direction: column;
+    }
+    .slider__filter-text,
+    .slider__filter-submit {
+        margin: 10px;
+    }
+    /* Table */
+    .container__tbody {
+        border: 1px solid #ccc;
+    }
+    .container__table thead {
+        display: none;
+    }
+    .container__table,
+    .container__table tbody,
+    .container__table tr,
+    .container__table td {
+        display: block;
+        width: 100%;
+    }
+    .container__table tr {
+        margin-bottom: 15px;
+    }
+    .container__table tbody tr td {
+        position: relative;
+        padding-left: 40%;
+        border: none;
+        border-bottom: 1px solid #eee;
+        font-size: 1.2rem;
+    }
+    .container__table td::before {
+        content: attr(data-title);
+        position: absolute;
+        left: 0;
+        padding-left: 10px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .main::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .main {
+        overflow: hidden;
+        padding: 0 6px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .padding-left-right {
+        padding: 0 15px;
+    }
+    .padding-left-right-40 {
+        padding: 0 40px;
+    }
+    .logo {
+        margin: 5px 0;
+    }
+    .logo-vnua,
+    .logo-vitc {
+        --height: 50px;
+    }
+    .logo-text__h2 {
+        font-size: 1.2rem;
+        margin: 7px 0;
+    }
+    .logo-text__h1 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .program__certificate-branch--title {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        top: 0;
+    }
+    .program__certificate-branch--img {
+        margin-top: -14px;
+    }
+    .registration__content-text {
+        font-size: 1.8rem;
+    }
+    .event__left-text {
+        font-size: 1.4rem;
+        line-height: 16px;
+    }
+    .product {
+        margin: 10px auto;
+    }
+    .contacts__map {
+        margin-top: 10px;
+    }
+}
